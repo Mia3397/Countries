@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body > div {
+    width: 500px;
+    padding: 15px;
+    margin: 100px auto;
+}
+.weather {
+    width: 420px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.weather, select {
+    background-color: bisque;
+    border: 1px solid black;
+}
+select {
+    margin-bottom: 30px;
+    padding: 8px;
+    width: 200px;
+
+}
+select:first-child {
+    margin-right: 16px;
+}
+select, option, p {
+    font-family: Arial;
+    font-size: 16px;
+}
+p {
+    line-height: 26px;
+}
